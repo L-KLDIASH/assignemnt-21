@@ -10,7 +10,6 @@ passwordInput = document.getElementById("password");
 
 function isPersonalNumberValid() {
   const value = personalNumber.value.trim();
-  const digitsOnlyRegex = /^\d+$/;
 
   if (value.length === 0) {
     showErrors(personalNumber, "Personal number is required");
