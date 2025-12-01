@@ -1,10 +1,10 @@
 // 1
 
-const form = document.registrationId("user-registration-form");
+const form = document.getElementById("user-registration-form");
 
-const personalNumber = document.registrationId("personal-number");
-emailInput = document.registrationId("email");
-passwordInput = document.registrationId("password");
+const personalNumber = document.getElementById("personal-number");
+emailInput = document.getElementById("email");
+passwordInput = document.getElementById("password");
 
 // 2
 

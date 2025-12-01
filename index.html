@@ -4,9 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Assignment 21</h1>
-    <script src="main.js"></script>
+    <div class="registration-form">
+    <form action="#" id="user-registration-form" novalidate>
+      <h1>Registration</h1>
+      <div class="form-control">
+        <label for="personal-number">პირადი ნომერი</label>
+        <input
+          type="number"
+          id="personal-number"
+          name="personal-number"
+          placeholder="შეიყვანე 11-ნიშნა პირადი ნომერი"
+        />
+      </div>
+      <div class="form-control">
+        <label for="email">ელ. ფოსტა</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@gmail.com"
+        />
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-control">
+        <label for="password">პაროლი</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="მინიმუმ 8 სიმბოლო"
+        />
+        <small class="error-message"></small>
+      </div>
+
+      <button type="submit" class="btn-submit">რეგისტრაცია</button>
+      </div>
+    </form>
   </body>
 </html>
